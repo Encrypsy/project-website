@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Suhu</title>
+    <link rel="stylesheet" href="../css/KonversiSuhu.css">
+    <link rel="icon" href="LogoSuhu.png">
+</head>
+<body>
+
+    <div class="all-content">
+
+        <div class="content">
+            <div class="container">
+                <div class="container-kotak">
+                    <div class="container-kotak-judul">
+                        <h1>Konversi Suhu</h1>
+                    </div>
+                    <div class="container-kotak-input">
+                        <input type="number" id="input" placeholder="Masukkan besar suhu">
+                    </div>
+                    <div class="container-kotak-radio">
+                        <div class="CF">
+                             <!-- CELCIUS -->
+                             <div class="container-kotak-celcius">
+                                 <div class="celcius-judul">
+                                     <h4>CELCIUS</h4>
+                                 </div>
+                                 <div class="celcius-radio">
+                                     <input type="radio" name="suhu" id="celcius-farenheit">
+                                     <label for="celcius-farenheit">Celcius > Farenheit</label>
+                                     <br>
+                                     <input type="radio" name="suhu" id="celcius-kelvin">
+                                     <label for="celcius-kelvin">Celcius > Kelvin</label>
+                                     <br>
+                                     <input type="radio" name="suhu" id="celcius-reamur">
+                                     <label for="celcius-reamur">Celcius > Reamur</label>
+                                 </div>             
+                             </div>
+                             <!-- FARENHEIT -->
+                             <div class="container-kotak-farenheit">
+                                 <div class="farenheit-judul">
+                                     <h4>FARENHEIT</h4>
+                                 </div>
+                                 <div class="farenheit-radio">
+                                     <input type="radio" name="suhu" id="farenheit-celcius">
+                                     <label for="farenheit-celcius">Farenheit > Celcius</label>
+                                     <br>
+                                     <input type="radio" name="suhu" id="farenheit-kelvin">
+                                     <label for="farenheit-kelvin">Farenheit > Kelvin</label>
+                                     <br>
+                                     <input type="radio" name="suhu" id="farenheit-reamur">
+                                     <label for="farenheit-reamur">Farenheit > Reamur</label>
+                                     <br>
+                                 </div>             
+                             </div>
+                        </div>
+                        <div class="RK">
+                             <!-- REAMUR -->
+                             <div class="container-kotak-reamur">
+                                 <div class="reamur-judul">
+                                     <h4>REAMUR</h4>
+                                 </div>
+                                 <div class="farenheit-radio">
+                                     <input type="radio" name="suhu" id="reamur-celcius">
+                                     <label for="reamur-celcius">Reamur > Celcius</label>
+                                     <br>
+                                     <input type="radio" name="suhu" id="reamur-kelvin">
+                                     <label for="reamur-kelvin">Reamur > Kelvin</label>
+                                     <br>
+                                     <input type="radio" name="suhu" id="reamur-farenheit">
+                                     <label for="reamur-farenheit">Reamur > Farenheit</label>
+                                     <br>
+                                 </div>             
+                             </div>
+                             <!-- KELVIN -->
+                             <div class="container-kotak-kelvin">
+                                 <div class="reamur-judul">
+                                     <h4>KELVIN</h4>
+                                 </div>
+                                 <div class="farenheit-radio">
+                                     <input type="radio" name="suhu" id="kelvin-celcius">
+                                     <label for="kelvin-celcius">Kelvin > Celcius</label>
+                                     <br>
+                                     <input type="radio" name="suhu" id="kelvin-reamur">
+                                     <label for="kelvin-reamur">Kelvin > Reamur</label>
+                                     <br>
+                                     <input type="radio" name="suhu" id="kelvin-farenheit">
+                                     <label for="kelvin-farenheit">Kelvin > Farenheit</label>
+                                     <br>
+                                 </div>             
+                             </div>
+                        </div>
+                    </div>
+                    <div class="container-kotak-submit">
+                        <div class="submitnih">
+                            <br><br><br>
+                            <button id="submit">GAZZ KIRIM!!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="parent-content-2">
+            <div class="content-2">
+                <div class="content-2-display">
+                    <h4>DISPLAY HASIL</h4>
+                </div>
+                <div class="content-2-hasil">
+                    <h3 id="hasil"></h3>
+                </div>
+            </div>
+            <div class="pemanis">
+                <img src="../images/karinamuah.jpg" width="200" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/KonversiSuhu.js"></script>
+</body>
+</html>

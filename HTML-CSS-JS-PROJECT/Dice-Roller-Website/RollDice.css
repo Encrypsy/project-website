@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffdae9;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-0 {
+    display: flex;
+    justify-content: center;
+}
+
+#winter {
+    width: 370px;
+    height: 130px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.content {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding: 10px;
+    height: 300px;
+    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.content-judul {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+h1 {
+    color: #e60e61;
+}
+
+.content-jumlahdadu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.content-dadu {
+    margin-top: 28px;
+
+}
+
+.dadu-text {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+.dadu-invalid {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-left: 20px;
+    padding: 6px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFC1DA;
+    font-weight: bold;
+    color: #f55291;
+}
+
+button:hover {
+    background-color: #e60e61;
+    color: whitesmoke;
+}
+
+button:active {
+    background-color: black;
+    color: whitesmoke;
+}
+
+input {
+    width: 90px;
+    height: 20px;
+    margin-left: 10px;
+    border: 2px solid #f55291;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+}
+
+label {
+    font-weight: bold;
+    color: #f55291;
+}
+
+.dadu-gambar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
