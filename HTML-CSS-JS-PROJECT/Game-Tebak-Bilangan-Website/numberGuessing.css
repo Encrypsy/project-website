@@ -63,8 +63,82 @@ button {
     color: white;
 }
 
-.container-game{
-    background-color: #FF9898;
+.container-game-1{
+    background-color: #ffd0d0;
     margin-top: 150px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.maxmin-judul {
+    display: flex;
+    justify-content: center;
+}
+
+.maxmin-judul-text {
+    color: #FF9898;
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 495;
+    font-style: normal;
+}
+
+.maxmin-bilangan {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.maxmin-bilangan-max {
+    margin-left: 30px;
+}
+
+h2 {
+    padding: 8px;
+    border-bottom: 3px solid #fa8b8b;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    color: #fa8b8b;
+}
+
+.container-game-content {
+    display: flex;
+    margin: 50px;
+}
+
+.container-game-maxmin {
+    background-color: white;
     height: 300px;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.inputbatas {
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #fdadad;
+    text-align: center;
+    font-weight: bold;
+}
+
+.maxmin-button {
+    margin-top: 20px;
+}
+
+#maxmin-btn {
+    height: 50px;
+}
+
+#gambarhp {
+    margin-left: 150px;
 }

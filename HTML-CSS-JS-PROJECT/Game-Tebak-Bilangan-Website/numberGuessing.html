@@ -14,7 +14,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<>
 
     <div class="container-header">
         <div class="container-img">
@@ -32,21 +32,44 @@
                 </p>
             </div>
             <div class="container-content-button">
-                <button><h3>Mulai!</h3></button>
+                <button>
+                    <h3>Mulai!</h3>
+                </button>
             </div>
         </div>
     </div>
 
-    <div class="container-game">
-        <div class="container-game-maxmin">
-            <p>halo gusy</p>
+    <div class="container-game-1">
+        <div class="container-game-content">
+            <div class="container-game-maxmin">
+                <div class="maxmin-judul">
+                    <h2 class="maxmin-judul-text">Masukkan Batas Angka</h2>
+                </div>
+                <div class="maxmin-bilangan">
+                    <div class="maxmin-bilangan-min">
+                        <h4 id="h4min">Minimal</h4>
+                        <input type="number" name="" id="batasMinimal" min="0" class="inputbatas">
+                    </div>
+                    <div class="maxmin-bilangan-max">
+                        <h4 id="h4maks">Maksimal</h4>
+                        <input type="number" name="" id="batasMaximum" min="2" class="inputbatas">
+                    </div>
+                </div>
+                <div class="maxmin-button">
+                    <button id="maxmin-btn">Konfirmasi</button>
+                </div>
+            </div>
+            <div class="container-game-img">
+                <img src="../images/undraw_confirmed_c5lo.svg" alt="" width="300" id="gambarhp">
+            </div>
         </div>
-        <div class="container-game-input">
-            <p>gusy</p>
-        </div>
-        <div class="container-game-display">
-            <p>AOKDOAKDOAKW</p>
-        </div>
+    </div>
+    
+    <div class="container-game-input">
+        <p>gusy</p>
+    </div>
+    <div class="container-game-display">
+        <p>AOKDOAKDOAKW</p>
     </div>
 
     <script src="numberGuessing.js"></script>
