@@ -1,8 +1,70 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-.container {
+h1 {
+    color: #FF9898;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 583;
+    font-style: normal;
+}
+
+.container-header {
     display: flex;
     justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.container-content-judul {
+    /* background-color: aqua; */
+    width: 400px;
+}
+
+.container-content-deskripsi {
+    margin-top: 25px;
+    width: 400px;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 495;
+    font-style: normal;
+    text-align: justify;
+    opacity: 0.6;
+}
+
+.container-content {
+    /* background-color: brown; */
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.container-content-button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 30px;
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF9898;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 495;
+    font-style: normal;
+    color: white;
+}
+
+.container-game{
+    background-color: #FF9898;
+    margin-top: 150px;
+    height: 300px;
 }
