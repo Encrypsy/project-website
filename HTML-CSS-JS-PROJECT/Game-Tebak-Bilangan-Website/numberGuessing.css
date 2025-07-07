@@ -220,11 +220,91 @@ h4 {
     border-radius: 10px;
 }
 
+.btn-animation {
+    transition-property: transform, filter;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.btn-animation:hover {
+    transform: translateY(-5px);
+    filter: drop-shadow(2px 2px 8px #e42d2d);
+}
+
 #btn-mulai{
-    filter: drop-shadow(5px 5px 10px #e42d2d);
+}
+
+#btn-mulai:hover{
 }
 
 .container-img {
     margin-right: 30px;
     filter: drop-shadow(10px 10px 25px  #fd9090);
+}
+
+@keyframes SlideinLeft {
+    from {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes SlideinRight {
+    from {
+        transform: translateX(300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes SlideinBottom {
+    from {
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.container-game-2 {
+    animation-name: SlideinBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-timeline: view();
+}
+
+.container-header {
+    animation-name: SlideinLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+
+    animation-timeline: entry 0;
+}
+
+.container-game-maxmin {
+    animation-name: SlideinLeft;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+
+    animation-timeline: view();
+    animation-range: entry 0% cover 60%;
+}
+.container-game-img {
+    animation-name: SlideinRight;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+
+    animation-timeline: view();
+    animation-range: entry 0% cover 60%;
 }
