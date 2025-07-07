@@ -69,6 +69,7 @@ button {
     height: 450px;
     display: flex;
     justify-content: center;
+    filter: drop-shadow(5px 5px 15px #fdabab);
 }
 
 .maxmin-judul {
@@ -141,4 +142,89 @@ h4 {
 
 #gambarhp {
     margin-left: 150px;
+}
+
+.parent-container-game-2 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-game-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: white;
+    /* border: 2px solid #FF9898; */
+    width: 800px;
+    height: 300px;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    filter: drop-shadow(5px 5px 30px #FF9898);
+}
+
+#judul-input {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 495;
+    font-style: normal;
+    border: none;
+}
+
+.input-submit-user {
+    display: flex;
+    justify-content: center;
+}
+
+#value-input {
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fa8b8b;
+}
+
+#submit-btn {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.parent-container-game-input {
+    /* background-color: aqua; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container-game-2 {
+    align-content: center;
+}
+
+.parent-container-game-display {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.container-game-display {
+    /* background-color: aqua; */
+    align-content: center;
+}
+
+#display-value {
+    background-color: rgb(216, 216, 216);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#btn-mulai{
+    filter: drop-shadow(5px 5px 10px #e42d2d);
+}
+
+.container-img {
+    margin-right: 30px;
+    filter: drop-shadow(10px 10px 25px  #fd9090);
 }

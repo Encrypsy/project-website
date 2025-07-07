@@ -14,8 +14,6 @@
         rel="stylesheet">
 </head>
 
-<>
-
     <div class="container-header">
         <div class="container-img">
             <img src="../images/undraw_chat-bot_c8iw.svg" width="400" alt="">
@@ -32,14 +30,17 @@
                 </p>
             </div>
             <div class="container-content-button">
-                <button>
-                    <h3>Mulai!</h3>
-                </button>
+                <!-- <button>
+                    <h3><a href=".container-game-1">Mulai!</a></h3>
+                </button> -->
+                <a href="#container-game-1">
+                    <button id="btn-mulai">Mulai!</button>
+                </a>
             </div>
         </div>
     </div>
 
-    <div class="container-game-1">
+    <div class="container-game-1" id="container-game-1">
         <div class="container-game-content">
             <div class="container-game-maxmin">
                 <div class="maxmin-judul">
@@ -64,14 +65,28 @@
             </div>
         </div>
     </div>
-    
-    <div class="container-game-input">
-        <p>gusy</p>
-    </div>
-    <div class="container-game-display">
-        <p>AOKDOAKDOAKW</p>
-    </div>
 
+    <div class="parent-container-game-2">
+        <div class="container-game-2">
+            <div class="parent-container-game-input">
+                <div class="container-game-input">
+                    <h2 id="judul-input">Masukkan angka tebakkan anda</h2>
+                    <div class="input-submit-user">
+                        <input type="number" id="value-input">
+                        <button id="submit-btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="parent-container-game-display">
+                <div class="container-game-display">
+                    <p id="display-value">AOKDOAKDOAKW</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
     <script src="numberGuessing.js"></script>
 </body>
 
