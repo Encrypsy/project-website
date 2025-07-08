@@ -8,6 +8,7 @@ Di sini aku menyimpan kumpulan proyek website yang pernah aku kerjakan, <br> mul
     <li>HTML</li>
     <li>CSS</li>
     <li>JAVASCRIPT</li>
+    <li>LARAVEL (soon)/<li>
     <li>REACT.JS (soon)</li>
     <li>DJANGO (soon)</li>
 </ul>
